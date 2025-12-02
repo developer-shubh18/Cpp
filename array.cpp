@@ -34,6 +34,9 @@ int main(){
     //     least = marks[i];
     //     i++; 
 }
+
+
+
 cout<<"minimum marks = "<<minimum<<endl;
 cout<<"maximum marks = "<<maximum<<endl;
 
