@@ -186,6 +186,40 @@ for(i=0;i<n-1;i++){
         cout<<"*";
     }cout<<endl;
 }
+cout<<endl;
+//  Hollow Square
+for (i =1;i<=n;i++){
+    for(j=1;j<=n;j++){
+        if(i==1 ||i==n|| j==1||j==n){
+            cout<<("* ");
+        }else{
+            cout<<("  ");
+        }
+    }
+    cout<<endl;
+}
+cout<<endl;
+// hollow triangle
+cout<<"HOLLOW TRIANGLE"<<endl;
+for (i =1;i<=n;i++){
+    for(j=1;j<=n;j++){
+        if(j==1 ||i==n|| i==j){
+            cout<<("* ");
+        }else{
+            cout<<("  ");
+        }
+    }
+    cout<<endl;
+}
+cout<<endl;
+// name Initial
+cout<<"NAME INITIALS"<<endl;
+cout<<endl;
 
+for(i=1;i<n;i++){
+    for(j=1;j<n-i;j++){
+        cout<<(" *");
+    }
+}
     return 0;
 }
